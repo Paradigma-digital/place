@@ -16323,15 +16323,20 @@ function partialSlider() {
     const sliderWrapper = document.querySelector(
       ".partial-section__text-slider"
     );
-
+    console.log("1111111", sliderWrapper);
     if (!desktopMedia.matches) {
       const size = document.querySelector(
         ".partial-section--afisha .partial-section__side-bottom"
       );
+      console.log("2222222", sliderWrapper);
 
       sliderWrapper.style.height = size.clientHeight + "px";
     } else {
+      console.log("3333333", sliderWrapper);
+      console.log("3333333", sliderWrapper);
+
       sliderWrapper.style.height = sliderWrapper.clientHeight + "px";
+      // sliderWrapper.style.height = "344px";
     }
 
     const boundedSlider = new Swiper(".partial-section__text-slider .swiper", {
@@ -16716,8 +16721,8 @@ function slider() {
         });
 
         console.log("enable");
-        console.log(newSlider.mousewheel);
-        console.log(newSlider.keyboard);
+        // console.log(newSlider.mousewheel);
+        // console.log(newSlider.keyboard);
       }
     } else if (e.type == "keydown") {
       if (e.keyCode == 34 || e.keyCode == 40) {
@@ -16839,7 +16844,7 @@ function slider() {
       });
     }
 
-    console.log(backSection);
+    // console.log(backSection);
   }
 
   function partialAnima(section, back, backSection) {
@@ -17655,7 +17660,7 @@ function turningHeader() {
   const header = document.querySelector(".header");
   const sections = document.querySelectorAll(".partial-section.dark");
 
-  console.log(sections);
+  // console.log(sections);
   sections.forEach((section) => {
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -17685,7 +17690,7 @@ function arrowWork() {
     const id = trigger.dataset.scrollTo;
     const target = document.querySelector(`[data-scroll-target="${id}"]`);
     trigger.addEventListener("click", () => {
-      console.log(target);
+      // console.log(target);
       target.scrollIntoView();
     });
   });

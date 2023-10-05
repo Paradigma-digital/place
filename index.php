@@ -543,9 +543,10 @@
                     <div class="section__container">
                         <div class="partial-section__side">
                             <div class="partial-section__strip-place"></div>
-                            <div class="partial-section__side-top"></div>
-                            <div class="partial-section__side-bottom">
-                                <h2 class="title partial-section__placeholder-title">
+                            <!-- <div class="partial-section__side-top"></div> -->
+                            <div class="partial-section__side-bottom custom-style__partial top" style="position:absolute;bottom: 0;height: 344px; width: 100%;display:flex; flex-direction:column;justify-content: space-between">
+                            <!-- <div class="partial-section__side-bottom"> -->
+                                <h2 class="title partial-section__placeholder-title" style="height:96px;">
                                     <span>Афиша</span>
                                 </h2>
                                 <div class="partial-section__arrows">
@@ -565,11 +566,11 @@
                         <div class="ordinary-slider partial-section__placeholder-mob-slider">
                             <div class="swiper">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide partial-section__placeholder-mob-slide">
+                                <div class="swiper-slide partial-section__placeholder-mob-slide">
                                         <div class="partial-section__placeholder-text">
                                             <h3 class="title title--md partial-section__title" data-text-anima="true">
                                                 <b class="outer">
-                                                    <span>WILD IL VASQUEZ <br/> EVA MARKES</span>
+                                                    <span>COVER NIGHT</span>
                                                 </b>
                                             </h3>
                                             <p class="partial-section__descr" data-text-anima="true">
@@ -581,12 +582,12 @@
                                                 <div class="components__info-item">
                                                     <b data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>29</span>
+                                                            <span>5</span>
                                                         </span>
                                                     </b>
                                                     <span data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>Сентября</span>
+                                                            <span>Октября</span>
                                                         </span>
                                                     </span>
                                                 </div>
@@ -605,15 +606,15 @@
                                             </dl>
                                         </div>
                                         <picture class="partial-section__placeholder-mob-image">
-                                            <source srcset="./img/afisha1.png" type="image/png"/>
-                                            <img src="./img/afisha1.png" alt="" />
+                                            <source srcset="./img/afisha3.jpg" type="image/jpg"/>
+                                            <img src="./img/afisha3.jpg" alt="" />
                                         </picture>
                                     </div>
                                     <div class="swiper-slide partial-section__placeholder-mob-slide">
                                         <div class="partial-section__placeholder-text">
                                             <h3 class="title title--md partial-section__title" data-text-anima="true">
                                                 <b class="outer">
-                                                    <span>J.TWIN TONI <br/> VOLKOVINSKY</span>
+                                                    <span>RECIDENCE</span>
                                                 </b>
                                             </h3>
                                             <p class="partial-section__descr" data-text-anima="true">
@@ -625,12 +626,56 @@
                                                 <div class="components__info-item">
                                                     <b data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>30</span>
+                                                            <span>6</span>
                                                         </span>
                                                     </b>
                                                     <span data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>Сентября</span>
+                                                            <span>Октября</span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <dl class="components__list">
+                                                <div class="components__list-item">
+                                                    <dt>Адрес:</dt>
+                                                    <dd>г. Сочи, ул. Войкова, д.3</dd>
+                                                </div>
+                                                <div class="components__list-item">
+                                                    <dt>Зарезервировать:</dt>
+                                                    <dd>
+                                                        <a href="tel:+79000039044">+7 (900) 003-90-44</a>
+                                                    </dd>
+                                                </div>
+                                            </dl>
+                                        </div>
+                                        <picture class="partial-section__placeholder-mob-image">
+                                            <source srcset="./img/afisha1.jpg" type="image/jpg"/>
+                                            <img src="./img/afisha1.jpg" alt="" />
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide partial-section__placeholder-mob-slide">
+                                        <div class="partial-section__placeholder-text">
+                                            <h3 class="title title--md partial-section__title" data-text-anima="true">
+                                                <b class="outer">
+                                                    <span>COME'ON</span>
+                                                </b>
+                                            </h3>
+                                            <p class="partial-section__descr" data-text-anima="true">
+                                                <span class="outer">
+                                                    <span>СТАРТ 22:00</span>
+                                                </span>
+                                            </p>
+                                            <div class="components__info">
+                                                <div class="components__info-item">
+                                                    <b data-text-anima="true">
+                                                        <span class="outer">
+                                                            <span>7</span>
+                                                        </span>
+                                                    </b>
+                                                    <span data-text-anima="true">
+                                                        <span class="outer">
+                                                            <span>Октября</span>
                                                         </span>
                                                     </span>
                                                 </div>
@@ -662,9 +707,14 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide partial-section__slide">
                                         <picture>
-                                            
-                                            <source srcset="./img/afisha1.png" type="image/png"/>
-                                            <img src="./img/afisha1.png" alt="" />
+                                            <source srcset="./img/afisha3.jpg" type="image/jpg"/>
+                                            <img src="./img/afisha3.jpg" alt="" />
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide partial-section__slide">
+                                        <picture>
+                                            <source srcset="./img/afisha1.jpg" type="image/jpg"/>
+                                            <img src="./img/afisha1.jpg" alt="" />
                                         </picture>
                                     </div>
                                     <div class="swiper-slide partial-section__slide">
@@ -678,13 +728,13 @@
                             <div class="swiper-pagination"></div>
                         </div>
                         <div class="partial-section__side">
-                            <div class="ordinary-slider partial-section__side-top partial-section__text-slider">
+                            <div class="ordinary-slider partial-section__side-top partial-section__text-slider custom-style " style="height: 344px; width: 100%">
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide partial-section__text-slide">
                                             <h3 class="title title--md partial-section__title" data-text-anima="true">
                                                 <b class="outer">
-                                                    <span>WILD IL VASQUEZ <br/> EVA MARKES</span>
+                                                    <span>COVER NIGHT</span>
                                                 </b>
                                             </h3>
                                             <p class="partial-section__descr" data-text-anima="true">
@@ -696,12 +746,12 @@
                                                 <div class="components__info-item">
                                                     <b data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>29</span>
+                                                            <span>5</span>
                                                         </span>
                                                     </b>
                                                     <span data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>Сентября</span>
+                                                            <span>Октября</span>
                                                         </span>
                                                     </span>
                                                 </div>
@@ -710,7 +760,7 @@
                                         <div class="swiper-slide partial-section__text-slide">
                                             <h3 class="title title--md partial-section__title" data-text-anima="true">
                                                 <b class="outer">
-                                                    <span>J.TWIN TONI <br/> VOLKOVINSKY</span>
+                                                    <span>RESIDENCE</span>
                                                 </b>
                                             </h3>
                                             <p class="partial-section__descr" data-text-anima="true">
@@ -722,12 +772,38 @@
                                                 <div class="components__info-item">
                                                     <b data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>30</span>
+                                                            <span>6</span>
                                                         </span>
                                                     </b>
                                                     <span data-text-anima="true">
                                                         <span class="outer">
-                                                            <span>Сентября</span>
+                                                            <span>Октября</span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide partial-section__text-slide">
+                                            <h3 class="title title--md partial-section__title" data-text-anima="true">
+                                                <b class="outer">
+                                                    <span>COME'ON</span>
+                                                </b>
+                                            </h3>
+                                            <p class="partial-section__descr" data-text-anima="true">
+                                                <span class="outer">
+                                                    <span>СТАРТ 22:00</span>
+                                                </span>
+                                            </p>
+                                            <div class="components__info">
+                                                <div class="components__info-item">
+                                                    <b data-text-anima="true">
+                                                        <span class="outer">
+                                                            <span>7</span>
+                                                        </span>
+                                                    </b>
+                                                    <span data-text-anima="true">
+                                                        <span class="outer">
+                                                            <span>Октября</span>
                                                         </span>
                                                     </span>
                                                 </div>
@@ -1275,63 +1351,63 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Ананас с Розмарином </h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Базилик с Лимончелло</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Биттер Джин</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Бордо</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Голубой Вельвет</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Джин с Ежевикой и Ананасом</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Изи Манго</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Малина Маракуйя</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Французский Мартини</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                         <div class="swiper-slide modal__side-inner">
                             <h2 class="title title--md modal__title">Фруктовый Брустер</h2>
-                            <p class="text modal__text">
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                         </div>
                     </div>
                 </div>
@@ -1340,10 +1416,10 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND </h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Ананас с Розмарином</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail1.jpg" type="image/jpg"/>
@@ -1352,10 +1428,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND lONG ISLAND lONG ISLAND</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Базилик с Лимончелло</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail2.jpg" type="image/jpg"/>
@@ -1364,10 +1440,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND lONG ISLAND lONG ISLAND lONG ISLAND</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Биттер Джин</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail3.jpg" type="image/jpg"/>
@@ -1376,10 +1452,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND 3</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Бордо</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail4.jpg" type="image/jpg"/>
@@ -1388,10 +1464,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND 4</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Голубой Вельвет</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail5.jpg" type="image/jpg"/>
@@ -1400,10 +1476,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND 5</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Джин с Ежевикой и Ананасом</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail6.jpg" type="image/jpg"/>
@@ -1412,10 +1488,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND 5</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Изи Манго</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail7.jpg" type="image/jpg"/>
@@ -1424,10 +1500,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND 5</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Малина Маракуйя</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail8.jpg" type="image/jpg"/>
@@ -1436,10 +1512,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND 5</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Французский Мартини</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail9.jpg" type="image/jpg"/>
@@ -1448,10 +1524,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide modal__mob-slide">
-                            <h2 class="title title--md modal__title">lONG ISLAND 5</h2>
-                            <p class="text modal__text">
+                            <h2 class="title title--md modal__title">Фруктовый Брустер</h2>
+                            <!-- <p class="text modal__text">
                                 Это американский классический коктейль, который обладает репутацией одного из самых крепких и опасных напитков. Его история полна загадок и различных версий, которые придают этому коктейлю особый шарм. Среди множества коктейлей, есть у меня определенный лидер, мне очень нравится его необычный и очень освежающий вкус
-                            </p>
+                            </p> -->
                             <div class="modal__mob-slide-img">
                                 <picture>
                                     <source srcset="./img/coctail10.jpg" type="image/jpg"/>
